@@ -245,7 +245,13 @@ img {
   justify-content: center;
   color: #4070f4;
   font-family: 'Poppins', sans-serif;
+    margin-bottom: var(--mb-2);
+
   
+}
+h1{
+    margin-bottom: var(--mb-2);
+
 }
 #portfolio{
   padding: 50px 0;
@@ -360,6 +366,8 @@ justify-content: space-around;  margin-top: 50px;
 
 .work {
   text-align: center;
+  margin-bottom: var(--mb-2);
+
 }
 
 .work_container {
@@ -512,7 +520,7 @@ justify-content: space-around;  margin-top: 50px;
 }
 
 .contact-container{
-  height: 100vh;
+  height: 80vh;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -537,6 +545,12 @@ justify-content: space-around;  margin-top: 50px;
 
   
   
+}
+.contact-container::after{
+  content: "";
+  height: 10px;
+  background: #4070f4;
+  position: absolute;
 }
 .contact-left-title hr{
   border: none;
