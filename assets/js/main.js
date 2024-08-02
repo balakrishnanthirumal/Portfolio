@@ -26,3 +26,8 @@ function linkAction(){
 }
 
 navLink.forEach(n => n.addEventListener('click', linkAction))
+button = document.querySelectorAll('.button-class')
+let inputs = document.querySelectorAll('input')
+button.addEventListener('click', () => {
+      inputs.forEach(input => input.value = " ");
+});
